@@ -1,0 +1,9 @@
+[profile.default]
+src = "contracts"
+out = "out"
+libs = ["lib"]
+remappings = []
+
+[rpc_endpoints]
+mantle_testnet = "https://rpc.sepolia.mantle.xyz"
+mantle_mainnet = "https://rpc.mantle.xyz"

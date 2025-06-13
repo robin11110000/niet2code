@@ -1,0 +1,56 @@
+# niet2code Builder Edition - .gitignore
+
+# Rust build artifacts
+/target/
+**/target/
+Cargo.lock
+
+# Generated ZK artifacts (these are created during runtime)
+calldata.bin
+/keys/
+/proofs/
+builder_stats.json
+
+# Deployment artifacts
+/tmp/
+*.log
+deployment_receipt.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+private_key.txt
+
+# Contract compilation artifacts
+*.abi
+*.bin
+*.sol.json
+
+# Node.js (if you add any JS tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (for stats management)
+__pycache__/
+*.pyc
+*.pyo
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary verification files
+verify_*.tmp

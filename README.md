@@ -114,7 +114,7 @@ cargo run -- dashboard --network mantle-testnet
 | `register` | Register on-chain | `cargo run -- register --alias "Builder" --network mantle-testnet` |
 | `dashboard` | View builder stats | `cargo run -- dashboard --network mantle-testnet` |
 
-### Integrations**
+### Integrations
 | Command | Description | Example |
 |---------|-------------|---------|
 | `privy auth` | Anonymous authentication | `cargo run -- privy auth` |
